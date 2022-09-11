@@ -1,8 +1,8 @@
 try:
     import httpx, os, sys, threading, time
     from pystyle import *
-except Exception as zt:
-    print(f'Missing imports | {zt}')
+except Exception as star:
+    print(f'Missing imports | {star}')
 
 
 logo2 = '''Venom | github/starlinkboy | Starlinkboy#0159'''
@@ -123,8 +123,8 @@ def main():
             )
         )
 
-  opt = input(Colorate.Vertical(Colors.DynamicMIX((Col.light_blue, Col.cyan)), Center.XCenter('[1] Webhook Deleter | [2] Webhook Spammer: ')))
-  web = input(Colorate.Vertical(Colors.DynamicMIX((Col.light_blue, Col.cyan)), Center.XCenter('[?] Webhook: ')))
+  opt = input(Colorate.Vertical(Colors.DynamicMIX((Col.light_blue, Col.cyan)), Center.XCenter('[1] Webhook Deleter | [2] Webhook Spammer:  ')))
+  web = input(Colorate.Vertical(Colors.DynamicMIX((Col.light_blue, Col.cyan)), Center.XCenter('[?] Webhook:  ')))
   if opt == '1':
           delete()
           main()
